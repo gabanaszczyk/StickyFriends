@@ -1,0 +1,139 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+body {
+  background: url(https://w.wallhaven.cc/full/7p/wallhaven-7pqr9o.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  width: 400px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16vh;
+  flex-direction: column;
+}
+.loginUser .loginButton,
+.loginLogin,
+.loginPass {
+  color: rgb(255, 255, 255);
+}
+
+input:focus, 
+button:focus {
+  outline: none;
+}
+
+.loginUser {
+  border-radius: 100px;
+  width: 120px;
+  height: 120px;
+  margin: 0px auto;
+  background:url(./user.png);
+  background-size: cover;
+}
+
+.loginLogin,
+.loginPass {
+  background: transparent;
+  border: 5px solid white;
+  border-radius: 15px;
+  width: 280px;
+  height: 35px;
+  padding-left: 10px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.loginButton {
+  background: transparent;
+  border: 5px solid white;
+  color: white;
+  border-radius: 15px;
+  width: 130px;
+  height: 40px;
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+
+.loginError{
+    text-align: center;
+}
+
+.loginToRegister{
+  text-align: center;
+}
+
+.logo{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    background: url(./logo.png);
+    width: 400px;
+    height: 100px;
+    background-size: cover;
+}
+
+.register{
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  width: 400px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12vh;
+  flex-direction: column;
+}
+
+.registerLogin,
+.registerEmail,
+.registerPass,
+.registerPass2{
+  background: transparent;
+  border: 5px solid white;
+  border-radius: 15px;
+  width: 280px;
+  height: 35px;
+  padding-left: 10px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.g-recaptcha{
+  width: 100px;
+}
+
+.registerButton{
+  background: transparent;
+  border: 5px solid white;
+  color: white;
+  border-radius: 15px;
+  width: 130px;
+  height: 40px;
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+
+.registerError{
+  font-size: small;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 13px;
+}
